@@ -26,14 +26,9 @@
         list-style: none;
         margin-bottom: 1.5rem;
         padding-left: 0;
-        display: flex;
 
         .cm-fact-item {
           font-family: "Montserrat", sans-serif;
-
-          & + .cm-fact-item {
-            margin-left: 3.5rem;
-          }
 
           .cm-fact-text {
             margin-bottom: 0;
@@ -229,6 +224,18 @@
         height: 140%;
         border: 1px solid #286D73;
         border-radius: 50%;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .cm-hero-section .cm-section-caption .cm-section-content .cm-fact-list {
+    display: flex;
+
+    .cm-fact-item {
+      & + .cm-fact-item {
+        margin-left: 3.5rem;
       }
     }
   }
@@ -523,11 +530,11 @@
       --bs-accordion-btn-padding-y: 1.5rem;
       --bs-accordion-btn-color: #364A63;
       // --bs-accordion-btn-bg: var(--bs-accordion-bg);
-      --bs-accordion-btn-icon: url("../../../assets/img/icons/plus-small.svg");
+      --bs-accordion-btn-icon: url("../../assets/img/icons/plus-small.svg");
       --bs-accordion-btn-icon-width: 1.25rem;
       // --bs-accordion-btn-icon-transform: rotate(-180deg);
       // --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
-      --bs-accordion-btn-active-icon: url("../../../assets/img/icons/minus-circle.svg");
+      --bs-accordion-btn-active-icon: url("../../assets/img/icons/minus-circle.svg");
       // --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
       --bs-accordion-body-padding-x: 1.5rem 0;
       --bs-accordion-body-padding-y: 0 0;

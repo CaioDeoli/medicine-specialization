@@ -76,13 +76,9 @@
   list-style: none;
   margin-bottom: 1.5rem;
   padding-left: 0;
-  display: flex;
 }
 .cm-hero-section .cm-section-caption .cm-section-content .cm-fact-list .cm-fact-item {
   font-family: "Montserrat", sans-serif;
-}
-.cm-hero-section .cm-section-caption .cm-section-content .cm-fact-list .cm-fact-item + .cm-fact-item {
-  margin-left: 3.5rem;
 }
 .cm-hero-section .cm-section-caption .cm-section-content .cm-fact-list .cm-fact-item .cm-fact-text {
   margin-bottom: 0;
@@ -243,6 +239,14 @@
   border-radius: 50%;
 }
 
+@media (min-width: 576px) {
+  .cm-hero-section .cm-section-caption .cm-section-content .cm-fact-list {
+    display: flex;
+  }
+  .cm-hero-section .cm-section-caption .cm-section-content .cm-fact-list .cm-fact-item + .cm-fact-item {
+    margin-left: 3.5rem;
+  }
+}
 @media (min-width: 768px) {
   .cm-hero-section .cm-section-caption .cm-section-header .cm-section-title {
     font-size: 4rem;
@@ -460,9 +464,9 @@
   --bs-accordion-btn-padding-x: 0;
   --bs-accordion-btn-padding-y: 1.5rem;
   --bs-accordion-btn-color: #364A63;
-  --bs-accordion-btn-icon: url("../../../assets/img/icons/plus-small.svg");
+  --bs-accordion-btn-icon: url("../../assets/img/icons/plus-small.svg");
   --bs-accordion-btn-icon-width: 1.25rem;
-  --bs-accordion-btn-active-icon: url("../../../assets/img/icons/minus-circle.svg");
+  --bs-accordion-btn-active-icon: url("../../assets/img/icons/minus-circle.svg");
   --bs-accordion-body-padding-x: 1.5rem 0;
   --bs-accordion-body-padding-y: 0 0;
   --bs-accordion-active-color: #0D4348;
