@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pós de Medicina</title>
+
+  <!-- Stylesheets -s -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/scss/main.css">
+  <!-- Stylesheets -e -->
+</head>
+
+<body>
+  <header class="cm-global-header">
+    <div class="container">
+      <div class="cm-header-content">
+        <div class="cm-header-brand">
+          <a href="#" class="cm-header-link">
+            <p class="cm-header-text">Andréa Paula</p>
+            <!-- <img src="" alt="brand"> -->
+          </a>
+        </div>
+        <button class="cm-header-nav-toggle-btn btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i class="fi fi-br-menu-burger"></i></button>
+        <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+          <div class="offcanvas-header pb-0">
+            <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body pt-0">
+            <hr class="d-lg-none text-black-50">
+            <nav class="cm-header-nav">
+              <ul class="cm-nav-list">
+                <li class="cm-nav-item"><a href="#reasons" class="cm-nav-link">Sobre</a></li>
+                <li class="cm-nav-item"><a href="#modules" class="cm-nav-link">Módulos</a></li>
+                <li class="cm-nav-item"><a href="#faq" class="cm-nav-link">Perguntas frequentes</a></li>
+                <li class="cm-nav-item"><a href="#cta" class="cm-nav-link">Contato</a></li>
+                <li class="cm-nav-item"><a href="#" class="cm-nav-btn btn btn-primary rounded-pill" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Inscrever-se</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="cm-main">
+    <section class="cm-hero-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="cm-section-caption">
+              <header class="cm-section-header">
+                <h1 class="cm-section-title">
+                  Transforme sua Carreira com a
+                  <br>
+                  Medicina Estética
+                </h1>
+                <p class="cm-section-text">
+                  Descubra a arte da medicina estética e da harmonização facial, onde a ciência encontra a beleza para a sua transformação estética perfeita
+                </p>
+              </header>
+              <div class="cm-section-content">
+                <ul class="cm-fact-list">
+                  <li class="cm-fact-item">
+                    <p class="cm-fact-text">
+                      <span class="cm-fact-number">500+</span>
+                      <br>
+                      <span class="cm-fact-title">Estudantes</span>
+                    </p>
+                  </li>
+                  <li class="cm-fact-item">
+                    <p class="cm-fact-text">
+                      <span class="cm-fact-number">360+</span>
+                      <br>
+                      <span class="cm-fact-title">Horas de curso</span>
+                    </p>
+                  </li>
+                  <li class="cm-fact-item">
+                    <p class="cm-fact-text">
+                      <span class="cm-fact-number">10</span>
+                      <br>
+                      <span class="cm-fact-title">Módulos diferentes</span>
+                    </p>
+                  </li>
+                </ul>
+                <ul class="cm-action-list">
+                  <li class="cm-action-item">
+                    <button type="button" class="cm-action-btn btn btn-primary rounded-pill" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Garanta sua Vaga</button>
+                  </li>
+                  <li class="cm-action-item">
+                    <button type="button" class="cm-action-btn btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <i class="cm-action-icon fi fi-ss-play"></i>
+                      Assistir o Vídeo
+                    </button>
+                  </li>
+                </ul>
+                <div class="cm-section-partnership">
+                  <h2 class="cm-section-title">Uma parceria entre:</h2>
+                  <ul class="cm-partnership-list">
+                    <li class="cm-partnership-item">
+                      <img src="assets/img/logos/a.png" alt="" class="cm-partnership-brand">
+                    </li>
+                    <li class="cm-partnership-item">
+                      <img src="assets/img/logos/b.png" alt="" class="cm-partnership-brand">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 d-none d-xl-block">
+            <div class="d-flex align-items-end justify-content-center h-100">
+              <div class="cm-play-card">
+                <div class="cm-play-left">
+                  <h2 class="cm-play-title">Dra. Andréa Paula</h2>
+                  <p class="cm-play-subtitle">Médica Cirurgiã</p>
+                </div>
+                <ul class="cm-star-list">
+                  <li class="cm-star-item"><i class="cm-star-icon fi fi-ss-star"></i></li>
+                  <li class="cm-star-item"><i class="cm-star-icon fi fi-ss-star"></i></li>
+                  <li class="cm-star-item"><i class="cm-star-icon fi fi-ss-star"></i></li>
+                  <li class="cm-star-item"><i class="cm-star-icon fi fi-ss-star"></i></li>
+                  <li class="cm-star-item"><i class="cm-star-icon fi fi-ss-star"></i></li>
+                </ul>
+                <button type="button" class="btn cm-play-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <i class="fi fi-ss-play"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cm-reasons-section" id="reasons">
+      <div class="container">
+        <header class="cm-section-header">
+          <h2 class="cm-section-title">
+            Eleve suas Habilidades e Alavanque sua Carreira
+            <br>
+            na Medicina
+          </h2>
+        </header>
+        <div class="cm-section-content">
+          <div class="row gx-4 gy-5">
+            <div class="col-sm-6 col-lg-4">
+              <div class="cm-reason-box">
+                <div class="cm-reason-icon-wrap">
+                  <i class="cm-reason-icon fi fi-ts-diploma"></i>
+                </div>
+                <h3 class="cm-reason-title">Certificação Reconhecida</h3>
+                <p class="cm-reason-desc">Obtenha uma credencial de prestígio em medicina estética após a conclusão</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="cm-reason-box">
+                <div class="cm-reason-icon-wrap">
+                  <i class="cm-reason-icon fi fi-ts-syringe"></i>
+                </div>
+                <h3 class="cm-reason-title">Habilidades Práticas</h3>
+                <p class="cm-reason-desc">Treinamento prático para dominar técnicas essenciais em harmonização facial</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="cm-reason-box">
+                <div class="cm-reason-icon-wrap">
+                  <i class="cm-reason-icon fi fi-ts-assessment"></i>
+                </div>
+                <h3 class="cm-reason-title">Acesso a Materiais Exclusivos</h3>
+                <p class="cm-reason-desc">Desbloqueie recursos exclusivos para aprendizado aprofundado e aprimoramento de habilidades</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="cm-reason-box">
+                <div class="cm-reason-icon-wrap">
+                  <i class="cm-reason-icon fi fi-ts-user-md"></i>
+                </div>
+                <h3 class="cm-reason-title">Corpo Docente de Excelência</h3>
+                <p class="cm-reason-desc">Aprenda com os principais especialistas e pioneiros em medicina estética</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="cm-reason-box">
+                <div class="cm-reason-icon-wrap">
+                  <i class="cm-reason-icon fi fi-ts-computer"></i>
+                </div>
+                <h3 class="cm-reason-title">Flexibilidade</h3>
+                <p class="cm-reason-desc">Personalize seu cronograma de aprendizado para adequá-lo aos seus compromissos profissionais</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="cm-reason-box">
+                <div class="cm-reason-icon-wrap">
+                  <i class="cm-reason-icon fi fi-ts-lightbulb-head"></i>
+                </div>
+                <h3 class="cm-reason-title">Metodologia Inovadora</h3>
+                <p class="cm-reason-desc">Explore métodos de ponta que redefinem o treinamento em medicina estética</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="cm-service-section d-none">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <img src="assets\img\e.png" alt="" class="mw-100 user-select-none">
+          </div>
+          <div class="col-lg-6">
+            <div class="cm-section-caption">
+              <header class="cm-section-header">
+                <h2 class="cm-section-title"></h2>
+              </header>
+              <div class="cm-section-content">
+                <ul class="cm-service-list">
+                  <li class="cm-service-item">
+                    <p class="cm-service-text">
+                      <strong>Rinoplastia:</strong> For Enhanced performance we use Lite Speed web server, HTTP, PHP.We make your Everything stays organized by to pic. Need to discuss a topic 
+                      further.
+                    </p>
+                  </li>
+                  <li class="cm-service-item">
+                    <p class="cm-service-text">
+                      <strong>Preenchimento da Mandíbula:</strong> For Enhanced performance we use Lite Speed web server, HTTP, PHP.We make your Everything stays organized by to pic. Need to 
+                      discuss a topic further.
+                    </p>
+                  </li>
+                  <li class="cm-service-item">
+                    <p class="cm-service-text">
+                      <strong>Rinoplastia:</strong> For Enhanced performance we use Lite Speed web server, HTTP, PHP.We make your Everything stays organized by to pic. Need to discuss a topic 
+                      further.
+                    </p>
+                  </li>
+                  <li class="cm-service-item">
+                    <p class="cm-service-text">
+                      <strong>Fios de Sustentação:</strong> For Enhanced performance we use Lite Speed web server, HTTP, PHP.We make your Everything stays organized by to pic. Need to 
+                      discuss a topic further.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <footer class="cm-section-footer">
+                <button type="button" class="btn btn-primary">Garanta sua Vaga</button>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="cm-modules-section" id="modules">
+      <div class="container">
+        <header class="cm-section-header">
+          <h2 class="cm-section-title">Todos os Módulos do Curso</h2>
+          <p class="cm-section-text">
+            Você tem a flexibilidade de escolher entre adquirir o curso inteiro ou selecionar módulos específicos que melhor atendam aos seus interesses e objetivos de aprendizagem
+          </p>
+        </header>
+        <div class="cm-section-content">
+          <div class="cm-section-carousel-wrap">
+            <div class="cm-section-carousel swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="cm-module-card-wrap swiper-slide">
+                  <div class="cm-module-card">
+                    <img src="assets/img/c.jpg" alt="" class="cm-module-img">
+                    <div class="cm-module-details">
+                      <ul class="cm-module-list-v1">
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-clock-five"></i>
+                          <p>
+                            20 horas
+                          </p>
+                        </li>
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-video-camera-alt"></i>
+                          <p>
+                            15 vídeos
+                          </p>
+                        </li>
+                      </ul>
+                      <h3 class="cm-module-title">Fundamentos da Medicina Estética</h3>
+                      <ul class="cm-module-list-v2">
+                        <li class="cm-module-item">
+                          <p>5+ Artigos</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>2+ E-books</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>40+ Exercícios</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>8+ Técnicas</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="cm-module-bottom">
+                      <p class="cm-module-price">R$1500.00</p>
+                      <button class="cm-module-btn btn">
+                        <i class="fi fi-rr-arrow-small-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cm-module-card-wrap swiper-slide">
+                  <div class="cm-module-card is-dark">
+                    <img src="assets/img/d.jpg" alt="" class="cm-module-img">
+                    <div class="cm-module-details">
+                      <ul class="cm-module-list-v1">
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-clock-five"></i>
+                          <p>
+                            30 horas
+                          </p>
+                        </li>
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-video-camera-alt"></i>
+                          <p>
+                            20 vídeos
+                          </p>
+                        </li>
+                      </ul>
+                      <h3 class="cm-module-title">Procedimentos de Rejuvenescimento Facial</h3>
+                      <ul class="cm-module-list-v2">
+                        <li class="cm-module-item">
+                          <p>7+ Artigos</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>3+ E-books</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>15+ Exercícios</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>12+ Técnicas</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="cm-module-bottom">
+                      <p class="cm-module-price">R$2000.00</p>
+                      <button class="cm-module-btn btn">
+                        <i class="fi fi-rr-arrow-small-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cm-module-card-wrap swiper-slide">
+                  <div class="cm-module-card">
+                    <img src="assets/img/b.jpg" alt="" class="cm-module-img">
+                    <div class="cm-module-details">
+                      <ul class="cm-module-list-v1">
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-clock-five"></i>
+                          <p>
+                            35 horas
+                          </p>
+                        </li>
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-video-camera-alt"></i>
+                          <p>
+                            25 vídeos
+                          </p>
+                        </li>
+                      </ul>
+                      <h3 class="cm-module-title">Laser e Tecnologias Avançadas em Estética</h3>
+                      <ul class="cm-module-list-v2">
+                        <li class="cm-module-item">
+                          <p>8+ Artigos</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>3+ E-books</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>18+ Exercícios</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>15+ Técnicas</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="cm-module-bottom">
+                      <p class="cm-module-price">R$3000.00</p>
+                      <button class="cm-module-btn btn">
+                        <i class="fi fi-rr-arrow-small-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cm-module-card-wrap swiper-slide">
+                  <div class="cm-module-card is-dark">
+                    <img src="assets/img/c.jpg" alt="" class="cm-module-img">
+                    <div class="cm-module-details">
+                      <ul class="cm-module-list-v1">
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-clock-five"></i>
+                          <p>
+                            25 horas
+                          </p>
+                        </li>
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-video-camera-alt"></i>
+                          <p>
+                            18 vídeos
+                          </p>
+                        </li>
+                      </ul>
+                      <h3 class="cm-module-title">Tratamentos Corporais</h3>
+                      <ul class="cm-module-list-v2">
+                        <li class="cm-module-item">
+                          <p>6+ Artigos</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>2+ E-books</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>12+ Exercícios</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>10+ Técnicas</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="cm-module-bottom">
+                      <p class="cm-module-price">R$2000.00</p>
+                      <button class="cm-module-btn btn">
+                        <i class="fi fi-rr-arrow-small-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cm-module-card-wrap swiper-slide">
+                  <div class="cm-module-card">
+                    <img src="assets/img/d.jpg" alt="" class="cm-module-img">
+                    <div class="cm-module-details">
+                      <ul class="cm-module-list-v1">
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-clock-five"></i>
+                          <p>
+                            15 horas
+                          </p>
+                        </li>
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-video-camera-alt"></i>
+                          <p>
+                            12 vídeos
+                          </p>
+                        </li>
+                      </ul>
+                      <h3 class="cm-module-title">Gestão e Marketing em Clínicas Estéticas</h3>
+                      <ul class="cm-module-list-v2">
+                        <li class="cm-module-item">
+                          <p>4+ Artigos</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>1+ E-books</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>8+ Exercícios</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>5+ Técnicas</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="cm-module-bottom">
+                      <p class="cm-module-price">R$1200.00</p>
+                      <button class="cm-module-btn btn">
+                        <i class="fi fi-rr-arrow-small-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cm-module-card-wrap swiper-slide">
+                  <div class="cm-module-card is-dark">
+                    <img src="assets/img/b.jpg" alt="" class="cm-module-img">
+                    <div class="cm-module-details">
+                      <ul class="cm-module-list-v1">
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-clock-five"></i>
+                          <p>
+                            10 horas
+                          </p>
+                        </li>
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-video-camera-alt"></i>
+                          <p>
+                            8 vídeos
+                          </p>
+                        </li>
+                      </ul>
+                      <h3 class="cm-module-title">Ética e Legislação em Medicina Estética</h3>
+                      <ul class="cm-module-list-v2">
+                        <li class="cm-module-item">
+                          <p>3+ Artigos</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>1+ E-books</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>5+ Exercícios</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>3+ Técnicas</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="cm-module-bottom">
+                      <p class="cm-module-price">R$1000.00</p>
+                      <button class="cm-module-btn btn">
+                        <i class="fi fi-rr-arrow-small-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cm-module-card-wrap swiper-slide">
+                  <div class="cm-module-card">
+                    <img src="assets/img/c.jpg" alt="" class="cm-module-img">
+                    <div class="cm-module-details">
+                      <ul class="cm-module-list-v1">
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-clock-five"></i>
+                          <p>
+                            20 horas
+                          </p>
+                        </li>
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-video-camera-alt"></i>
+                          <p>
+                            15 vídeos
+                          </p>
+                        </li>
+                      </ul>
+                      <h3 class="cm-module-title">Anatomia Aplicada à Medicina Estética</h3>
+                      <ul class="cm-module-list-v2">
+                        <li class="cm-module-item">
+                          <p>5+ Artigos</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>2+ E-books</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>10+ Exercícios</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>8+ Técnicas</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="cm-module-bottom">
+                      <p class="cm-module-price">R$1800.00</p>
+                      <button class="cm-module-btn btn">
+                        <i class="fi fi-rr-arrow-small-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cm-module-card-wrap swiper-slide">
+                  <div class="cm-module-card is-dark">
+                    <img src="assets/img/d.jpg" alt="" class="cm-module-img">
+                    <div class="cm-module-details">
+                      <ul class="cm-module-list-v1">
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-clock-five"></i>
+                          <p>
+                            25 horas
+                          </p>
+                        </li>
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-video-camera-alt"></i>
+                          <p>
+                            20 vídeos
+                          </p>
+                        </li>
+                      </ul>
+                      <h3 class="cm-module-title">Complicações e Segurança em Procedimentos Estéticos</h3>
+                      <ul class="cm-module-list-v2">
+                        <li class="cm-module-item">
+                          <p>6+ Artigos</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>3+ E-books</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>12+ Exercícios</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>10+ Técnicas</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="cm-module-bottom">
+                      <p class="cm-module-price">R$2200.00</p>
+                      <button class="cm-module-btn btn">
+                        <i class="fi fi-rr-arrow-small-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cm-module-card-wrap swiper-slide">
+                  <div class="cm-module-card">
+                    <img src="assets/img/b.jpg" alt="" class="cm-module-img">
+                    <div class="cm-module-details">
+                      <ul class="cm-module-list-v1">
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-clock-five"></i>
+                          <p>
+                            15 horas
+                          </p>
+                        </li>
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-video-camera-alt"></i>
+                          <p>
+                            10 vídeos
+                          </p>
+                        </li>
+                      </ul>
+                      <h3 class="cm-module-title">Nutrição e Estética</h3>
+                      <ul class="cm-module-list-v2">
+                        <li class="cm-module-item">
+                          <p>4+ Artigos</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>1+ E-books</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>8+ Exercícios</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>5+ Técnicas</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="cm-module-bottom">
+                      <p class="cm-module-price">R$1500.00</p>
+                      <button class="cm-module-btn btn">
+                        <i class="fi fi-rr-arrow-small-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="cm-module-card-wrap swiper-slide">
+                  <div class="cm-module-card is-dark">
+                    <img src="assets/img/c.jpg" alt="" class="cm-module-img">
+                    <div class="cm-module-details">
+                      <ul class="cm-module-list-v1">
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-clock-five"></i>
+                          <p>
+                            20 horas
+                          </p>
+                        </li>
+                        <li class="cm-module-item">
+                          <i class="fi fi-rr-video-camera-alt"></i>
+                          <p>
+                            15 vídeos
+                          </p>
+                        </li>
+                      </ul>
+                      <h3 class="cm-module-title">Cosmetologia Aplicada à Medicina Estética</h3>
+                      <ul class="cm-module-list-v2">
+                        <li class="cm-module-item">
+                          <p>5+ Artigos</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>2+ E-books</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>10+ Exercícios</p>
+                        </li>
+                        <li class="cm-module-item">
+                          <p>8+ Técnicas</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="cm-module-bottom">
+                      <p class="cm-module-price">R$1800.00</p>
+                      <button class="cm-module-btn btn">
+                        <i class="fi fi-rr-arrow-small-right"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cm-faq-section" id="faq">
+      <div class="container">
+        <header class="cm-section-header">
+          <h2 class="cm-section-title">Perguntas frequentes</h2>
+        </header>
+        <div class="cm-section-content">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="cm-section-caption">
+                <div class="cm-faq-accordion accordion" id="faqAccordion">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Como posso me inscrever?
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                        Para se inscrever no curso, geralmente é necessário acessar o site oficial do curso ou entrar em contato com a instituição responsável. As informações sobre requisitos de entrada, datas de início das turmas e documentos necessários geralmente estão disponíveis no site
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Qual é a carga horária e a estrutura do curso?
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                        O curso geralmente possui uma carga horária específica dividida em aulas teóricas e práticas. Informações detalhadas sobre o número de módulos, conteúdo programático, horários das aulas e localização podem ser encontradas no programa do curso ou obtidas através da instituição
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Quais são os pré-requisitos para participar?
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                        Os pré-requisitos podem variar, mas geralmente incluem formação prévia na área da saúde, como médicos, dentistas, enfermeiros ou fisioterapeutas. Além disso, é possível que sejam exigidos certificados de cursos específicos, como de preenchimento facial e toxina botulínica, dependendo do conteúdo do curso
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Qual é a certificação oferecida ao concluir?
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                        Ao finalizar o curso, os participantes geralmente recebem um certificado de conclusão emitido pela instituição responsável. Esse certificado é importante para comprovar a participação e o aprendizado adquirido no curso de harmonização facial
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img src="assets/img/e.png" alt="" class="mw-100 user-select-none">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cm-cta-section" id="cta">
+      <div class="container">
+        <div class="cm-section-content">
+          <div class="row gx-5">
+            <div class="col-lg-6 d-none d-lg-block">
+              <img src="assets/img/a.webp" alt="" class="cm-section-img">
+            </div>
+            <div class="cm-section-caption-wrap col-lg-6">
+              <div class="cm-section-caption">
+                <p class="cm-section-text">Não Espere para<br>Você Transformar a<br>sua Carreira!</p>
+                <input type="text" class="cm-section-input form-control form-control-lg" placeholder="Digite seu email" aria-label="Digite seu email" aria-describedby="button-addon2">
+                <button type="submit" class="cm-section-btn btn btn-primary rounded-pill" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Garantir Vaga</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="cm-global-footer">
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-md-6 col-xl-4">
+          <div class="cm-footer-panel">
+            <a href="#" class="cm-panel-link">
+              Dra. Andréa Paula
+            </a>
+            <p class="cm-panel-desc">Dra. Andrea Paula é uma renomada dermatologista especializada em medicina estética, reconhecida por sua expertise em tratamentos inovadores e cuidado personalizado aos pacientes</p>
+            <ul class="cm-contact-list">
+              <li class="cm-contact-item">
+                <div class="cm-contact-icon-wrap">
+                  <i class="cm-contact-icon fi fi-rr-phone-call"></i>
+                </div>
+                <p class="cm-contact-text">Av. Rui Barbosa, 1104 - Graças, Recife - PE</p>
+              </li>
+              <li class="cm-contact-item">
+                <div class="cm-contact-icon-wrap">
+                  <i class="cm-contact-icon fi fi-rr-envelope"></i>
+                </div>
+                <p class="cm-contact-text">(81) 4009-5355</p>
+              </li>
+            </ul>
+            <ul class="cm-social-list">
+              <li class="cm-social-item">
+                <a href="#" class="cm-social-link"><i class="fi fi-brands-facebook cm-social-icon"></i></a>
+              </li>
+              <li class="cm-social-item">
+                <a href="#" class="cm-social-link"><i class="fi fi-brands-twitter-alt cm-social-icon"></i></a>
+              </li>
+              <li class="cm-social-item">
+                <a href="#" class="cm-social-link"><i class="fi fi-brands-instagram cm-social-icon"></i></a>
+              </li>
+              <li class="cm-social-item">
+                <a href="#" class="cm-social-link"><i class="fi fi-brands-linkedin cm-social-icon"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-xl-2">
+          <div class="cm-menu-box">
+            <h6 class="cm-menu-title">Site</h6>
+            <ul class="cm-menu-list">
+              <li class="cm-menu-item">
+                <a href="#" class="cm-menu-link">Curso</a>
+              </li>
+              <li class="cm-menu-item">
+                <a href="#" class="cm-menu-link">Módulos</a>
+              </li>
+              <li class="cm-menu-item">
+                <a href="#" class="cm-menu-link">Perguntas frequentes</a>
+              </li>
+              <li class="cm-menu-item">
+                <a href="#" class="cm-menu-link">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-xl-2">
+          <div class="cm-menu-box">
+            <h6 class="cm-menu-title">Organização</h6>
+            <ul class="cm-menu-list">
+              <li class="cm-menu-item">
+                <a href="#" class="cm-menu-link">Comunidade</a>
+              </li>
+              <li class="cm-menu-item">
+                <a href="#" class="cm-menu-link">Sobre</a>
+              </li>
+              <li class="cm-menu-item">
+                <a href="#" class="cm-menu-link">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <div class="cm-subscribe-box">
+            <h6 class="cm-subscribe-title">Inscreva-se na nossa caixa de email</h6>
+            <p class="cm-subscribe-desc">Inscreva-se para receber nossas últimas notícias</p>
+            <div class="input-group mb-3">
+              <input type="text" class="cm-subscribe-input form-control" placeholder="Digite seu email" aria-label="Digite seu email" aria-describedby="button-addon2">
+              <button type="button" class="cm-subscribe-btn btn btn-primary" id="button-addon2"><i class="cm-subscribe-icon fi fi-rr-paper-plane" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cm-footer-bottom">
+        <p class="cm-footer-text">© 2024, Medicine Specialization. Site feito por <a href="www.linkedin.com/in/caio-moura-36140a31a" class="cm-footer-link" target="_blank">Caio Deoli</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Video modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel" style="font-family: 'Montserrat', sans-serif;">Vídeo de introdução</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="box-shadow: none;"></button>
+        </div>
+        <div class="modal-body">
+          <iframe class="w-100 rounded-2" width="560" height="560" src="https://www.youtube-nocookie.com/embed/3DEkF2uvPoc?si=xzGkHX6GJgC9fAey&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Subscribe modal -->
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel" style="font-family: 'Montserrat', sans-serif;">Garanta sua Vaga</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="box-shadow: none;"></button>
+        </div>
+        <div class="modal-body">
+          <form class="">
+            <div class="form-floating mb-3" style="font-family: 'Montserrat', sans-serif;">
+              <input type="text" class="form-control rounded-3" id="name" placeholder="Senha">
+              <label for="name">Nome completo</label>
+            </div>
+            <div class="form-floating mb-3" style="font-family: 'Montserrat', sans-serif;">
+              <input type="email" class="form-control rounded-3" id="email" placeholder="nome@dominio.com">
+              <label for="email">Endereço de email</label>
+            </div>
+            <button type="button" class="w-100 mb-2 btn btn-lg btn-primary cm-primary-btn rounded-3" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" style="font-family: 'Montserrat', sans-serif;">Inscrever-se</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2" style="font-family: 'Montserrat', sans-serif;">Parabéns!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="box-shadow: none;"></button>
+        </div>
+        <div class="modal-body" style="font-family: 'Montserrat', sans-serif;">
+          Sua inscrição foi realizada com sucesso. Enviamos para seu email mais informações a respeito de como acessar a plataforma do curso
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -s -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <!-- Scripts -e -->
+</body>
+
+</html>

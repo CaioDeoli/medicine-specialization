@@ -1,0 +1,111 @@
+.cm-global-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 0;
+
+  .cm-header-content {
+    display: flex;
+    justify-content: space-between;
+
+    .cm-header-brand {
+      .cm-header-link {
+        text-decoration: none;
+  
+        .cm-header-text {
+          font-family: "Playfair Display", serif;
+          font-weight: 600;
+          color: #364A63;
+          font-size: 1.5rem;
+          text-decoration: none;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .cm-header-nav-toggle-btn {
+      --bs-btn-color: #FFFFFF;
+      --bs-btn-bg: #0D4348;
+      --bs-btn-border-color: #0D4348;
+      --bs-btn-hover-color: #FFFFFF;
+      --bs-btn-hover-bg: #012F33;
+      --bs-btn-hover-border-color: #012F33;
+      --bs-btn-focus-shadow-rgb: transparent;
+      --bs-btn-active-color: #FFFFFF;
+      --bs-btn-active-bg: #012F33;
+      --bs-btn-active-border-color: #012F33;
+      --bs-btn-active-shadow: transparent;
+      --bs-btn-disabled-color: #FFFFFF;
+      --bs-btn-disabled-bg: #012F33;
+      --bs-btn-disabled-border-color: #012F33;
+          
+      i {
+        display: flex;
+      }
+    }
+
+    .btn-close:focus {
+      --bs-btn-close-focus-shadow: none;
+    }
+  
+    .cm-header-nav {
+      .cm-nav-list {
+        list-style: none;
+        margin-bottom: 0;
+        padding-left: 0;
+  
+        .cm-nav-item {
+          & + .cm-nav-item {
+            margin-top: 1rem;
+          }
+
+          .cm-nav-link {
+            font-size: 0.9375rem;
+            font-family: "Montserrat", sans-serif;
+            text-decoration: none;
+            color: #526484;
+
+            &:hover {
+              color: #286D73;
+            }
+          }
+
+          .cm-nav-btn {
+            --bs-btn-font-family: "Montserrat", sans-serif;
+            --bs-btn-color: #FFFFFF;
+            --bs-btn-bg: #0D4348;
+            --bs-btn-border-color: #0D4348;
+            --bs-btn-hover-color: #FFFFFF;
+            --bs-btn-hover-bg: #012F33;
+            --bs-btn-hover-border-color: #012F33;
+            --bs-btn-focus-shadow-rgb: transparent;
+            --bs-btn-active-color: #FFFFFF;
+            --bs-btn-active-bg: #012F33;
+            --bs-btn-active-border-color: #012F33;
+            --bs-btn-active-shadow: transparent;
+            --bs-btn-disabled-color: #FFFFFF;
+            --bs-btn-disabled-bg: #012F33;
+            --bs-btn-disabled-border-color: #012F33;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .cm-global-header .cm-header-content .cm-header-nav {
+    .cm-nav-list {
+      display: flex;
+      align-items: center;
+  
+      .cm-nav-item {
+        & + .cm-nav-item {
+          margin-left: 2rem;
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
